@@ -50,7 +50,9 @@ module.exports = {
                                 "column": 8
                             }
                         },
-                        "name": {
+                        "optional": false,
+                        "computed": false,
+                        "key": {
                             "type": "Identifier",
                             "range": [
                                 21,

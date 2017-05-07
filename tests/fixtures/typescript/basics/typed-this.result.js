@@ -50,7 +50,9 @@ module.exports = {
                                 "column": 65
                             }
                         },
-                        "name": {
+                        "optional": false,
+                        "computed": false,
+                        "key": {
                             "type": "Identifier",
                             "range": [
                                 23,
@@ -68,7 +70,7 @@ module.exports = {
                             },
                             "name": "addClickListener"
                         },
-                        "parameters": [
+                        "params": [
                             {
                                 "type": "Identifier",
                                 "range": [
@@ -118,6 +120,7 @@ module.exports = {
                                                 "column": 57
                                             }
                                         },
+                                        "typeParameters": null,
                                         "parameters": [
                                             {
                                                 "type": "Identifier",
@@ -275,8 +278,7 @@ module.exports = {
                                                     }
                                                 }
                                             }
-                                        },
-                                        "typeParameters": null
+                                        }
                                     }
                                 }
                             }
@@ -314,8 +316,7 @@ module.exports = {
                                     }
                                 }
                             }
-                        },
-                        "typeParameters": null
+                        }
                     }
                 ],
                 "range": [

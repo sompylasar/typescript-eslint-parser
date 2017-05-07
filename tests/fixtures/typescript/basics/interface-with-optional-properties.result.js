@@ -50,7 +50,9 @@ module.exports = {
                                 "column": 9
                             }
                         },
-                        "name": {
+                        "optional": true,
+                        "computed": false,
+                        "key": {
                             "type": "Identifier",
                             "range": [
                                 21,
@@ -68,23 +70,6 @@ module.exports = {
                             },
                             "name": "foo",
                             "optional": true
-                        },
-                        "questionToken": {
-                            "type": "TSQuestionToken",
-                            "range": [
-                                24,
-                                25
-                            ],
-                            "loc": {
-                                "start": {
-                                    "line": 2,
-                                    "column": 7
-                                },
-                                "end": {
-                                    "line": 2,
-                                    "column": 8
-                                }
-                            }
                         },
                         "typeAnnotation": null
                     },
@@ -104,7 +89,9 @@ module.exports = {
                                 "column": 17
                             }
                         },
-                        "name": {
+                        "optional": true,
+                        "computed": false,
+                        "key": {
                             "type": "Identifier",
                             "range": [
                                 31,
@@ -122,23 +109,6 @@ module.exports = {
                             },
                             "name": "bar",
                             "optional": true
-                        },
-                        "questionToken": {
-                            "type": "TSQuestionToken",
-                            "range": [
-                                34,
-                                35
-                            ],
-                            "loc": {
-                                "start": {
-                                    "line": 3,
-                                    "column": 7
-                                },
-                                "end": {
-                                    "line": 3,
-                                    "column": 8
-                                }
-                            }
                         },
                         "typeAnnotation": {
                             "type": "TypeAnnotation",
@@ -177,7 +147,6 @@ module.exports = {
                     },
                     {
                         "type": "TSMethodSignature",
-                        "typeParameters": null,
                         "range": [
                             49,
                             79
@@ -192,7 +161,9 @@ module.exports = {
                                 "column": 34
                             }
                         },
-                        "name": {
+                        "optional": true,
+                        "computed": false,
+                        "key": {
                             "type": "Identifier",
                             "range": [
                                 49,
@@ -211,24 +182,7 @@ module.exports = {
                             "name": "baz",
                             "optional": true
                         },
-                        "questionToken": {
-                            "type": "TSQuestionToken",
-                            "range": [
-                                52,
-                                53
-                            ],
-                            "loc": {
-                                "start": {
-                                    "line": 4,
-                                    "column": 7
-                                },
-                                "end": {
-                                    "line": 4,
-                                    "column": 8
-                                }
-                            }
-                        },
-                        "parameters": [
+                        "params": [
                             {
                                 "type": "Identifier",
                                 "range": [
@@ -319,7 +273,8 @@ module.exports = {
                                 "name": "baz",
                                 "optional": true
                             }
-                        ]
+                        ],
+                        "typeAnnotation": null
                     }
                 ],
                 "range": [

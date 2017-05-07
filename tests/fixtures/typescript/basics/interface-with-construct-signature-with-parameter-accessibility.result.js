@@ -36,7 +36,6 @@ module.exports = {
                 "body": [
                     {
                         "type": "TSConstructSignature",
-                        "typeParameters": null,
                         "range": [
                             21,
                             47
@@ -51,7 +50,7 @@ module.exports = {
                                 "column": 30
                             }
                         },
-                        "parameters": [
+                        "params": [
                             {
                                 "type": "TSParameterProperty",
                                 "range": [
@@ -126,7 +125,8 @@ module.exports = {
                                     "name": "y"
                                 }
                             }
-                        ]
+                        ],
+                        "typeAnnotation": null
                     }
                 ],
                 "range": [

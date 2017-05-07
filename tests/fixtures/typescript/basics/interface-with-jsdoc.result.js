@@ -36,7 +36,6 @@ module.exports = {
                 "body": [
                     {
                         "type": "TSMethodSignature",
-                        "typeParameters": null,
                         "range": [
                             76,
                             85
@@ -51,7 +50,9 @@ module.exports = {
                                 "column": 13
                             }
                         },
-                        "name": {
+                        "optional": false,
+                        "computed": false,
+                        "key": {
                             "type": "Identifier",
                             "range": [
                                 76,
@@ -69,7 +70,7 @@ module.exports = {
                             },
                             "name": "foo"
                         },
-                        "parameters": [
+                        "params": [
                             {
                                 "type": "Identifier",
                                 "range": [
@@ -88,7 +89,8 @@ module.exports = {
                                 },
                                 "name": "bar"
                             }
-                        ]
+                        ],
+                        "typeAnnotation": null
                     }
                 ],
                 "range": [
