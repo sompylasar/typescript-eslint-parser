@@ -143,7 +143,7 @@ module.exports = {
                                     },
                                     "decorators": [],
                                     "accessibility": null,
-                                    "isReadonly": true,
+                                    "readonly": true,
                                     "parameter": {
                                         "type": "Identifier",
                                         "range": [
@@ -215,7 +215,7 @@ module.exports = {
                                     },
                                     "decorators": [],
                                     "accessibility": null,
-                                    "isReadonly": true,
+                                    "readonly": true,
                                     "parameter": {
                                         "type": "AssignmentPattern",
                                         "range": [

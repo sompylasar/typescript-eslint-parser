@@ -70,7 +70,7 @@ module.exports = {
                                     }
                                 },
                                 "accessibility": "public",
-                                "isReadonly": false,
+                                "readonly": false,
                                 "parameter": {
                                     "type": "Identifier",
                                     "range": [
@@ -107,7 +107,7 @@ module.exports = {
                                     }
                                 },
                                 "accessibility": "private",
-                                "isReadonly": false,
+                                "readonly": false,
                                 "parameter": {
                                     "type": "Identifier",
                                     "range": [
